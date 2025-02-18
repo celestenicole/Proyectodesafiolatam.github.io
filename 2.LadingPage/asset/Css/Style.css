@@ -1,0 +1,75 @@
+body{
+    margin:0% ;
+}
+header{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    color: rgb(102, 8, 90);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(https://i.pinimg.com/736x/38/c0/fa/38c0fa9af2a84115440dd70d402a19cb.jpg);
+    border: 1px solid rgb(185, 17, 135);
+
+}
+.Marca{ 
+    padding: 10px;
+    border-radius: 15%;
+}
+section{
+    padding-left: 50px;
+    font-style: initial;
+    font-size: 100%;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    background-color: #d8a7c7; 
+    margin: 0%;
+    display: flex;
+    background-image: url(https://i.pinimg.com/236x/72/1c/dc/721cdc54faca1df4650c2b1fef383888.jpg);
+}
+
+.Ropa {
+    display: flex;
+    flex-direction: column;
+    gap: 2px; 
+    width: 100%; 
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    background-color: #fff; 
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+ 
+  
+}
+
+.imagen {
+    flex: 0 0 300px; 
+    max-height: 200px; 
+    object-fit: cover; 
+    margin-right: 20px; 
+    display: block;
+    margin:;;
+    border-radius: 7px;
+}
+
+.letra {
+    flex: 1; 
+    color: #380834; 
+    font-size: 1.2em; 
+    text-align: center; 
+}
+footer {
+    padding: 0;
+    font-size: 30px;
+     font-style: initial;
+     background-color: rgb(101, 197, 152);
+     text-align: center;
+     margin: 0;
+}

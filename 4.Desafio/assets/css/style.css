@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", serif;
+}
+
+header nav .navbar-brand img {
+  width: 100px;
+}
+
+
+footer img {
+  width: 80px;
+}
